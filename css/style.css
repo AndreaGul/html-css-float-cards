@@ -11,7 +11,7 @@
 /* selettori comuni */
  .container{
     width: 0 auto;
-    padding: 30px 100px;
+    padding: 30px 100px 0px 100px;
  }
 
  .clearfix::after {
@@ -40,12 +40,14 @@ h1{
 }
 /* dimensine base del box */
 .team > .box {
-    /* height: 80px; */
-    width: calc(100%/3 - 20px);
+    
+    width: calc(100%/3 - 30px);
     background-color: #0f0e17;
     color: white;
     float: left;
-    margin: 20px 10px;   
+    margin: 25px 15px; 
+    
+    box-shadow: 0px 1px 2px black, 0px -1px 2px black; 
 }
 /* /dimensine base del box */
 
@@ -73,6 +75,7 @@ h1{
 
 .info-persona h3{
     font-weight: 600;
+    
 }
 
 .info-persona > p,a{
