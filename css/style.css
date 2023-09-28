@@ -34,23 +34,38 @@ h1{
 /* /header con titolo e paragrafo */
 
 
-
-
+/* box */
+/* dimensine base del box */
 .team > .box {
-    height: 80px;
+    /* height: 80px; */
     width: calc(100%/3 - 20px);
     background-color: #0f0e17;
     color: white;
     float: left;
-    margin: 20px 10px;
-    padding: 5px;
+    margin: 20px 10px;   
 }
+/* /dimensine base del box */
 
-.box > .img-persona{
+/* dimensione immagine */
+.img-persona{
     float: left;
-
+    width: 100px;
 }
 
-.box > .info-persona{
-    float:right
+.img-persona img{
+    width: 100%;
+    display: block;
 }
+/* /dimensione immagine */
+
+/* spazio per i dati delle persone */
+.info-persona{
+    float:right;
+    width: calc(100% - 100px);
+    padding: 10px;
+}
+/* /spazio per i dati delle persone */
+
+
+
+/* /box */
