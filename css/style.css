@@ -5,18 +5,52 @@
     padding: 0;
     box-sizing: border-box;
  }
+ /* /reset */
 
- header{
-    font-family: 'Fredoka', sans-serif;
-    text-align: center;
- }
 
+/* selettori comuni */
  .container{
     width: 0 auto;
     padding: 30px 100px;
  }
 
+ .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+ }
+ /* /attributi comuni */
+
+ /* header con titolo e paragrafo */
+ header{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+ }
+
 h1{
     margin-bottom: 40px;
     color: #e53170;
+}
+/* /header con titolo e paragrafo */
+
+
+
+
+.team > .box {
+    height: 80px;
+    width: calc(100%/3 - 20px);
+    background-color: #0f0e17;
+    color: white;
+    float: left;
+    margin: 20px 10px;
+    padding: 5px;
+}
+
+.box > .img-persona{
+    float: left;
+
+}
+
+.box > .info-persona{
+    float:right
 }
