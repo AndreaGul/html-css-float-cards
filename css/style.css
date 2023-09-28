@@ -35,6 +35,9 @@ h1{
 
 
 /* box */
+.box{
+    font-family: 'Fredoka', sans-serif;
+}
 /* dimensine base del box */
 .team > .box {
     /* height: 80px; */
@@ -66,6 +69,25 @@ h1{
 }
 /* /spazio per i dati delle persone */
 
+/* dettagli font dell info persone */
 
+.info-persona h3{
+    font-weight: 600;
+}
+
+.info-persona > p,a{
+    font-size: 14px;
+}
+
+.info-persona a{
+    color: #17ccf2;
+    text-decoration: none;
+}
+
+.info-persona > h3,p,a{
+    margin: 5px;
+}
+
+/* /dettagli font dell info persone */
 
 /* /box */
